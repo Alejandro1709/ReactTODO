@@ -9,17 +9,17 @@ class App extends Component {
   state = {
     todos: [
       {
-        id: 1,
+        id: uuidv4(),
         title: 'Take out the trash',
         completed: false,
       },
       {
-        id: 2,
+        id: uuidv4(),
         title: 'Dinner with fam',
         completed: false,
       },
       {
-        id: 3,
+        id: uuidv4(),
         title: 'Meeting with boss',
         completed: false,
       },
