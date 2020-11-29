@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import TodoItem from './TodoItem';
 import PropTypes from 'prop-types';
-import './Todos.css';
 
 class Todos extends Component {
   render() {
@@ -10,6 +9,7 @@ class Todos extends Component {
         key={todo.id}
         todo={todo}
         markComplete={this.props.markComplete}
+        delTodo={this.props.delTodo}
       />
     ));
   }
